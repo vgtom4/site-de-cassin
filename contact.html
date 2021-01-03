@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Verger pédagogique du lycée Renée Cassin</title>
+	<link href="contact/contact.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" type="image" href="media/LOGO CASSIN.png" />
+	<link rel="stylesheet" id="js_composer_front-css" type="text/css" media="all">
+</head>
+
+<body>
+	<div class="sticky">
+		<div class="navbar">
+			<a href="index.html">Accueil</a>
+			<a href="#">Nouveauté</a>
+			<a href="#">Link</a>
+			<a href="#">Contact</a>
+		</div>
+	</div>
+	<form method="post" action="send-mail.php" class="contact-form" id="form">
+		<div class="row">
+			<div class="col-md-12">
+				<input type="text" name="name" placeholder="Insérez votre nom" class="required">
+									</div>
+									<div class="col-md-12">
+										<input type="email" name="email" placeholder="Insérez votre adresse email" class="contact-form-email required">
+									</div>
+									<div class="col-md-12">
+										<input type="text" name="subject" placeholder="Votre sujet" class="contact-form-subject required">
+									</div>
+								</div>
+								<textarea name="message" placeholder="Insérez votre message" class="required" rows="7"></textarea>
+								<div class="response-message"></div>
+								<button class="border-button border-bt-red" type="submit" id="submit" name="submit">Envoyer Message</button>
+                <div class="g-recaptcha" data-sitekey="6LfgNfoSAAAAABItyuRsaNmRFAs4peXVJxT0_Cag"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfgNfoSAAAAABItyuRsaNmRFAs4peXVJxT0_Cag&amp;co=aHR0cDovL2ZyLmZveHlmb3JtLmNvbTo4MA..&amp;hl=fr&amp;v=qc5B-qjP0QEimFYUxcpWJy5B&amp;size=normal&amp;cb=v6ioiandibkl" width="304" height="78" role="presentation" name="a-j92dwz4zqryp" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></div>
+							</form>
+    
+  </body>
+</html>

@@ -1,0 +1,110 @@
+body {
+  font-family: cursive, Helvetica, sans-serif;
+  margin: 0;
+  /* height: 400vh; */
+  background-color: rgb(106, 204, 150);
+}
+
+/*Bande principale*/
+.d-flex{
+    display:flex;
+  }
+.text-center{
+  text-align: center;
+}
+.flex-1{
+  flex: 1;
+}
+.align-items-center{
+  align-items:center;
+}
+.justify-content-center{
+  justify-content:center;
+}
+.w-100{
+  width:100%;
+}
+.h-100{
+  height:100%;
+}
+.police{
+  font-size: 3rem;
+  font-family: cursive;
+}
+
+
+
+.video {
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  z-index: 0;
+  width: -100px;
+}
+
+.content-container {
+    background-color: rgb(109, 109, 109);
+    display: block;
+    border:none;
+    padding: 0;
+    margin:0;
+    height: 5px;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 14px 20px;
+  background: #44a786;
+  color: white;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: rgb(51, 51, 51);
+}
+
+/* Style the navigation bar links */
+.navbar a { 
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+body nav{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+body nav .main{
+  width: calc( 100% - 4em );
+  justify-content: space-between;
+  padding: 0 2em;
+  background-color: aquamarine;
+}
+
+body .sticky{
+  width: calc( 100% - 4em );
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2em;
+  background-color: rgb(51, 51, 51);
+  position: sticky;
+  position: -webkit-sticky;
+  top:0;
+  z-index: 2;
+}
+
+.centerverticaly{
+  margin: auto;
+  text-align: center;
+}
