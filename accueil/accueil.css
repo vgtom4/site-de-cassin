@@ -68,6 +68,7 @@ body .sticky .navbar a:hover {
   background-color: #fff;
   border-bottom: 2px solid rgb(0, 162, 255);
   color: black;
+  transition: .3s;
 }
 
 
@@ -177,14 +178,18 @@ nav a:hover{
 }
 
 .sous{
-    display: none;
     background-color: #333;
     position: absolute;
     width: 100%;
     z-index: 1000;
+    height: 0px;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity .3s;
 }
 nav > ul li:hover .sous{
-    display: block;
+    height: auto;
+    opacity: 1;
 }
 .sous li{
     float: none;
@@ -207,4 +212,10 @@ nav > ul li:hover .sous{
 .conteneur{
   margin: 50px 20px;
   height: 1500px;
+}
+
+#macopie1{
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
 }
