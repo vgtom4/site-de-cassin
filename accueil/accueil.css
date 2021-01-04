@@ -154,7 +154,6 @@ nav ul{
 
 nav ul li{
     float: left;
-    width: 25%;
     text-align: center;
     position: relative;
 }
@@ -180,7 +179,7 @@ nav a:hover{
 .sous{
     background-color: #333;
     position: absolute;
-    width: 100%;
+    width: fit-content;
     z-index: 1000;
     height: 0px;
     opacity: 0;
@@ -199,6 +198,7 @@ nav > ul li:hover .sous{
 .sous a{
     padding: 10px;
     border-bottom: none;
+    white-space: nowrap;
 }
 .sous a:hover{
     border-bottom: none;
