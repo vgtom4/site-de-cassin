@@ -214,8 +214,14 @@ nav > ul li:hover .sous{
   height: 1500px;
 }
 
+<<<<<<< HEAD
 #macopie1{
     position: absolute;
     pointer-events: none;
     opacity: 0;
+=======
+.cache{
+  background: transparent;
+  overflow: visible;
+>>>>>>> ffe1d96ab2348b46f625fa20560beb1926da20c8
 }
