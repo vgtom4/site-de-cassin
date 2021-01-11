@@ -2,6 +2,9 @@ body {
   font-family: cursive;
   margin: 0;
   background-image: url("https://www.10wallpaper.com/wallpaper/1366x768/1701/Multicolor_Gaussian_Blur_Gradient-Vector_Design_HD_Wallpaper_1366x768.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 body .header {
