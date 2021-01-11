@@ -11,6 +11,7 @@
 	<style>
 		@media (max-width: 768px) {}
 	</style>
+
 </head>
 
 <body>
@@ -46,7 +47,7 @@
             <li class="deroulant">
               <a href="#">Contact</a>
                 <ul class="sous">
-                   <li><a onclick="macopie1()" href="#">Contactez nous avec : <p>verger.cassin@cassin-macon.fr</p></a></li> 
+                   <li><a onclick="macopie1()" title="Cliquez pour copier l'adresse mail"  href="#">Contactez nous avec : <p>verger.cassin@cassin-macon.fr</p></a></li> 
                   <textarea id="macopie1" style="cursor:default; width:100%;">verger.cassin@cassin-macon.fr</textarea>
                 </ul>
             </li>
@@ -64,10 +65,54 @@
   </div>
 
 
+
+<div class="main" id="section1">
+  <a href="#section2">Click Me to Smooth Scroll to Section 2 Below</a>
+  
+</div>
+
+
+
+
+<div class="main" id="section2">
+  <h2>Section 2</h2>
+  <a href="#section1">Click Me to Smooth Scroll to Section 1 Above</a>
+</div>
+
+<p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+  <p> fyuo hgk fh fhk fh fh fh gh fgh fghl fhl</p>
+
+
     <!-- <div class="content-container">
+
     </div> -->
 
-    <img src="https://www.10wallpaper.com/wallpaper/1366x768/1701/Multicolor_Gaussian_Blur_Gradient-Vector_Design_HD_Wallpaper_1366x768.jpg" alt="img" height="100%" width="100%"/>
 
     <div class='d-flex header media'>
 		<a href="http://lyc71-cassin.ac-dijon.fr/" target="_blank">
@@ -77,6 +122,30 @@
       ©Copyright V--G Tom et Todea Radu <p>Lycée René Cassin Mâcon</p>
     </div>
   </div>
+
+  <button onclick="topFunction()" id="myBtn" title="Aller en haut">Haut ⬆</button>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
   
     <script src="accueil/accueil.js"></script>
   </body>
