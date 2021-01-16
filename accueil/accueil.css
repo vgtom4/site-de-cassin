@@ -1,7 +1,7 @@
 body {
-  font-family: cursive;
+  font-family: Arial, sans-serif;
   margin: 0;
-  background-image: url("https://www.wallfizz.com/nature/pleine-nature/3815-gazon-WallFizz.jpg");
+  background: linear-gradient(to right, #5a3f37 0%, #2c7744 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -9,8 +9,12 @@ body {
 
 .fond{
   padding: 14px 20px;
-  background-image: url("https://www.wallfizz.com/nature/pleine-nature/3815-gazon-WallFizz.jpg");
-  color: white;
+  color: #f4f1d6;
+  padding: 60px 0px 0px 0px;
+}
+
+.text{
+  padding: 1em;
 }
 
 body .header {
@@ -89,7 +93,7 @@ body .video {
 }
 
 body .content-container {
-  background-color: rgb(109, 109, 109);
+  background-color: rgb(61, 146, 135);
   display: block;
   border:none;
   padding: 0;
@@ -247,20 +251,94 @@ nav > ul li:hover .sous{
 
 
 //scrollbar
-/*
+
 #myBtn:hover {
-  background-color: rgb(28, 105, 168);
+  background-color: rgb(28, 168, 121);
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
  
 ::-webkit-scrollbar-thumb {
-  background: rgb(33, 101, 190); 
+  background: rgb(33, 190, 104); 
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(55, 124, 214); 
-}*/
+  background: rgb(55, 214, 134); 
+}
+
+
+
+//modal style
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}

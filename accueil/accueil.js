@@ -1,3 +1,4 @@
+//copy mail
 function macopie1() {
   var copyText = document.getElementById("macopie1");
   copyText.select();
@@ -6,6 +7,7 @@ function macopie1() {
 }
 
 
+//button up
 var mybutton = document.getElementById("myBtn");
 window.onscroll = function() {scrollFunction()};
 
@@ -16,7 +18,6 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
-
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
