@@ -1,15 +1,21 @@
 body {
   font-family: cursive;
   margin: 0;
-  background-image: url("https://www.10wallpaper.com/wallpaper/1366x768/1701/Multicolor_Gaussian_Blur_Gradient-Vector_Design_HD_Wallpaper_1366x768.jpg");
+  background-image: url("https://www.wallfizz.com/nature/pleine-nature/3815-gazon-WallFizz.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
+.fond{
+  padding: 14px 20px;
+  background-image: url("https://www.wallfizz.com/nature/pleine-nature/3815-gazon-WallFizz.jpg");
+  color: white;
+}
+
 body .header {
   padding: 14px 20px;
-  background: rgb(38, 163, 126);
+  background: rgb(53, 122, 76);
   color: white;
 }
 
@@ -223,8 +229,6 @@ nav > ul li:hover .sous{
     opacity: 0;
 }
 
-
-
 #myBtn {
   display: none;
   position: fixed;
@@ -241,22 +245,22 @@ nav > ul li:hover .sous{
   border-radius: 4px;
 }
 
+
+//scrollbar
+/*
 #myBtn:hover {
   background-color: rgb(28, 105, 168);
 }
 
-/* width */
 ::-webkit-scrollbar {
   width: 10px;
 }
  
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgb(33, 101, 190); 
   border-radius: 10px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(55, 124, 214); 
-}
+}*/
