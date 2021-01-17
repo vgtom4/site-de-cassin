@@ -8,9 +8,9 @@ body {
 }
 
 .fond{
-  padding: 14px 20px;
+  
   color: #f4f1d6;
-  padding: 60px 0px 0px 0px;
+  padding: 60px 20px 0px 20px;
 }
 
 .text{
@@ -183,6 +183,7 @@ nav ul li{
     float: left;
     text-align: center;
     position: relative;
+    width: 100%;
 }
 
 nav ul::after{
