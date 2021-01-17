@@ -208,7 +208,6 @@ nav a:hover{
 .sous{
     background-color: #333;
     position: absolute;
-    width: fit-content;
     z-index: 1000;
     height: 0;
     opacity: 0;
@@ -216,6 +215,7 @@ nav a:hover{
     transition: opacity .3s;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 nav > ul li:hover .sous{
     height: auto;
