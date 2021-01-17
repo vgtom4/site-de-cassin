@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: linear-gradient(to right, #5a3f37 0%, #2c7744 100%);
+  background: linear-gradient(to right, #3CA55C 0%, rgb(166, 175, 84) 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -10,7 +10,7 @@ body {
 .fond{
   
   color: #f4f1d6;
-  padding: 60px 20px 0px 20px;
+  padding: 60px 40px 0px 40px;
 }
 
 .text{
@@ -19,7 +19,7 @@ body {
 
 body .header {
   padding: 14px 20px;
-  background: rgb(53, 122, 76);
+  background: linear-gradient(to left, #3CA55C 0%, rgb(166, 175, 84) 100%);
   color: white;
 }
 
