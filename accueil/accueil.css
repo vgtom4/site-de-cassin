@@ -127,18 +127,30 @@ body .content-container {
 .h1-responsive{
   font-size: 2em;
 }
+.h2-responsive{
+  font-size: 1.6em;
+}
 @media (max-width: 1200px){
   .h1-responsive{
     font-size: 1.5em;
+  }
+  .h2-responsive{
+    font-size: 1.3em;
   }
 }
 @media (max-width: 768px){
   .h1-responsive{
     font-size: 1em;
   }
+  .h2-responsive{
+    font-size: 1em;
+  }
 }
 @media (max-width: 480px){
   .h1-responsive{
+    font-size: .8em;
+  }
+  .h2-responsive{
     font-size: .8em;
   }
 }
@@ -149,8 +161,8 @@ body .content-container {
 /*===============TEST===============*/
 
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 nav{
@@ -158,11 +170,13 @@ nav{
     margin: 0 auto;
     background-color: #333;
     position: sticky;
-    top: 0px;
+    top: 0;
 }
 
 nav ul{
     list-style-type: none;
+    display:flex;
+    justify-content: space-around;
 }
 
 nav ul li{
@@ -182,7 +196,7 @@ nav a{
     text-decoration: none;
     color: black;
     border-bottom: 2px solid transparent;
-    padding: 10px 0px;
+    padding: 10px 0;
 }
 
 nav a:hover{
@@ -194,10 +208,12 @@ nav a:hover{
     position: absolute;
     width: fit-content;
     z-index: 1000;
-    height: 0px;
+    height: 0;
     opacity: 0;
     overflow: hidden;
     transition: opacity .3s;
+    display: flex;
+    flex-direction: column;
 }
 nav > ul li:hover .sous{
     height: auto;
@@ -250,7 +266,7 @@ nav > ul li:hover .sous{
 }
 
 
-//scrollbar
+/*scrollbar*/
 
 #myBtn:hover {
   background-color: rgb(28, 168, 121);
@@ -271,7 +287,7 @@ nav > ul li:hover .sous{
 
 
 
-//modal style
+/*modal style*/
 
 /* The Modal (background) */
 .modal {
@@ -341,4 +357,32 @@ nav > ul li:hover .sous{
   padding: 2px 16px;
   background-color: #5cb85c;
   color: white;
+}
+
+
+table.droppable button{
+    display:block;
+    width:100%;
+    background: transparent;
+    border:none;
+    border-top: 1px solid white;
+    color: white;
+    position: absolute;
+    left:0;
+    bottom:0;
+    outline: none;
+    padding: 5px 0;
+    cursor: pointer;
+
+}
+table.droppable tr:last-child td div{
+    max-height: 0;
+    opacity:0;
+    transition: .3s;
+    pointer-events: none;
+}
+table.droppable tr.active td div{
+    max-height: 2000px;
+    opacity:1;
+    pointer-events: all;
 }
